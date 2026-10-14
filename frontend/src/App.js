@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
-import { MessageSquare, Send, RefreshCw, Users, UserX, SkipForward, ShieldAlert } from 'lucide-react';
+import { MessageSquare, Send, RefreshCw, Users, UserX, SkipForward,  } from 'lucide-react';
 import './App.css';
 
 const SOCKET_SERVER_URL = 'https://must-chat-backend.onrender.com';;
